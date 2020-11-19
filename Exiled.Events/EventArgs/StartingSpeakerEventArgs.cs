@@ -8,10 +8,11 @@
 namespace Exiled.Events.EventArgs
 {
     using System;
+
     using Exiled.API.Features;
 
     /// <summary>
-    /// Contains all informations before a player triggers a speaker through SCP-079.
+    /// Contains all informations before SCP-079 uses a speaker.
     /// </summary>
     public class StartingSpeakerEventArgs : EventArgs
     {

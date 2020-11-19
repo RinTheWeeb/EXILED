@@ -37,7 +37,7 @@ namespace Exiled.Events.EventArgs
         }
 
         /// <summary>
-        /// Gets the player who thrown the grenade.
+        /// Gets the player who threw the grenade.
         /// </summary>
         public Player Thrower { get; }
 
